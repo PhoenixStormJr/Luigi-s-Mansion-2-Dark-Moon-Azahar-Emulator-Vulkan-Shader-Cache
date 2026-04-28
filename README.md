@@ -1,0 +1,2 @@
+# Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache
+I am not affiliated with Azahar or Nintendo. You need the orginal game to use this. Luigi's Mansion 2 Dark Moon is very difficult to emulate, because it has to render tens of thousands of shaders *per room*. Therefore, I beat the game on vulkan and copied the full cache files!! On steam deck but it might work on Windows or android I don't know. 
