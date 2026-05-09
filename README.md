@@ -31,11 +31,17 @@ Under Enhancements:
 
 Internal Resolution: (set to whatever) but I set mine to 3x and then tried lowering it, still used the old shaders.
 
+UNCHECK Use Integer Scaling. It doesn't matter at all.
+
+CHECK "Enable Linear Filtering". It's very fast, and standard.
+
 Texture Filter: NONE. Faster and doesn't change shaders.
 
 UNCHECK Disable Right Eye Rendering. For shaders of right and left eyes. Again, this makes it more "standard" but slower. More likely to be compatible.
 
 Swap Eyes OFF.
+
+(nothing under utility matters.)
 
 Layout: My layout is X position: 0, Y position: 0, Width: 1280, Height: 650, X position: 565. Y position: 650, Width: 150, Height: 150. But you can do whatever.
 
