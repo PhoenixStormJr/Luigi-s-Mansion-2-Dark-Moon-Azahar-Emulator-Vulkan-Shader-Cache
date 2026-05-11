@@ -57,7 +57,7 @@ CHECK Enable hardware shader. Just do it. DO. IT. Or don't, and see what happens
 
 UNCHECK "Accurate multiplication". This doesn't even affect shaders at all. It just slows the game down.
 
-UNCHECK "enable async shader compilation". This might break some shaders otherwise. It may be EXTREMELY SLOW when building shaders but it builds PERFECT shaders.
+CHECK "enable async shader compilation". I UNCHECKED it, because it makes shaders more accurate, but you should CHECK it for faster gameplay.
 
 CHECK "enable async presentation". Makes it faster and I noticed no input lag.
 
