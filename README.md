@@ -1,5 +1,5 @@
 # UPDATES
-hm... this might only work on Beta branch. I'll make another on stable. I was only on Beta to get a feature I really wanted THEN but now it's on stable. I'll also try to make the shaders more "portable" this time.
+Okay even worse, after changing all the settings, the cache doesn't work on the update. It seems I'll have to beat the game on every channel, stable, beta, preview.
 
 # Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache
 I am not affiliated with Azahar or Nintendo. You need the orginal game to use this. Luigi's Mansion 2 Dark Moon is very difficult to emulate, because it has to render tens of thousands of shaders *per room*. Therefore, I beat the game on vulkan and copied the full cache files!! On steam deck but it might work on Windows or android I don't know. 
@@ -23,7 +23,7 @@ Right click the game -> properties
 
 Under System:
 
-UNCHECK "Enable New 3DS mode". Although this option speeds it up, it makes the shaders LESS "generic" meaning they're specific to YOUR device, not mine.
+CHECK "Enable New 3DS mode". Makes it faster, doesn't affect cache
 
 UNCHECK "Use LLE applets" Again, specific to your device, but not to mine. You can check it if you need online, but it may not work. I dunno.
 
@@ -37,9 +37,9 @@ CHECK "Enable Linear Filtering". It's very fast, and standard.
 
 Texture Filter: NONE. Faster and doesn't change shaders.
 
-UNCHECK Disable Right Eye Rendering. For shaders of right and left eyes. Again, this makes it more "standard" but slower. More likely to be compatible.
+CHECK Disable Right Eye Rendering. Eye to render, Left Eye (default) Makes it faster. Barely affects shaders.
 
-Swap Eyes OFF.
+Swap Eyes OFF. It does nothing that I can tell...
 
 (nothing under utility matters.)
 
@@ -51,21 +51,21 @@ Graphics API: Set to Vulkan. (Eventually I'll make OpenGL shaders, but until the
 
 CHECK SPIR-V shader generation. (THE MOST IMPORTANT LITERALLY!!!)
 
-UNCHECK Disable GLSL -> SPIR-V optimizer. This makes the shaders work "faster" BUT makes them specific to YOUR device, not generic. (This is how I messed up the first time.) They also probably won't work without this unchecked.
+UNCHECK Disable GLSL -> SPIR-V optimizer. This makes the shaders compile "faster" BUT makes them specific to YOUR device, not generic. (This is how I messed up the first time.) They also probably won't work without this unchecked. Also after compiled, they run the same speed.
 
 CHECK Enable hardware shader. Just do it. DO. IT. Or don't, and see what happens...
 
 UNCHECK "Accurate multiplication". This doesn't even affect shaders at all. It just slows the game down.
 
-UNCHECK "enable async shader compilation". Because we want as many shaders as possible, and this sometimes skips them! Also... I have all the shaders here so this is literally useless.
+UNCHECK "enable async shader compilation". This might break some shaders otherwise. It may be EXTREMELY SLOW when building shaders but it builds PERFECT shaders.
 
-UNCHECK "enable async presentation". Maybe?... It makes it slower but I don't know if it breaks it.
+CHECK "enable async presentation". Makes it faster and I noticed no input lag.
 
-Texture Sampling: Linear. This is the "standard" option and pretty fast!
+Texture Sampling: Application controlled. Default.
 
 DEFINITELY CHECK "use disk shader cache" BECAUSE THIS IS HOW IT LOADS THE FILES I UPLOADED!!!
 
-UNCHECK "Enable VSync". It increases performance and makes the shader generation smoother. 
+CHECK "Enable VSync". It increases performance but doesn't affect shaders.
 
 Delay application render thread: around 2 ms is best for speed for me.
 
@@ -87,7 +87,7 @@ UNCHECK "Dump command buffers" it doesn't affect shaders at all
 
 UNCHECK "Delay app start for LLE module initialization" it doesn't affect shaders at all.
 
-CHECK Force deterministic async operations. Meaning if we perform the same action (like catching a ghost) it should give us the SAME shader. This is the only async thing that should be clicked.
+UNCHECK Force deterministic async operations. I DON'T know what I'm doing so it's staying off cuz it told me to.
 
 I have no idea about cheats.
 
