@@ -1,5 +1,5 @@
 # UPDATES
-Okay even worse, after changing all the settings, the cache doesn't work on the update. It seems I'll have to beat the game on every channel, stable, beta, preview.
+I do NOT need to beat it in preview! Beta works for preview!
 
 Beat it in stable! If it helps here is vulkan info for stable:
 
