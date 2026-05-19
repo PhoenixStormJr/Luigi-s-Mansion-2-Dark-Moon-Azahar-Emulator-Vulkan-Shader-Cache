@@ -8,7 +8,9 @@ I beat the game using Vulkan, but I plan to beat the game 4 times, twice on Vulk
 
 Download here:
 
-https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/tag/release
+[stable](https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/download/release2/Luigi.s.Mansion.2.Azahar.Shaders.Cache.Vulkan.Stable.zip)
+
+beta
 
 # DISCLAIMER:
 I am not affiliated with Azahar, not a developer. You MUST have the original legally dumped from YOUR OWN 3DS game to use this! (Literally this won't work without the ROM, it's just the cache to speed up the LEGALLY DUMPED GAME!! It will NOT run by itself!!!)
