@@ -26,6 +26,8 @@ Download here:
 
 [beta](https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/download/release/Luigis-Mansion-2-Dark-Moon-shaders-Vulkan-Beta.zip)
 
+(WARNING for Beta you need to CHECK the disable optimize spirv cache, because I was an idiot the first time around and didn't know any better, now it's stuck. I won't do it again until Beta moves into Stable. I'm moving into Open GL.)
+
 # DISCLAIMER:
 I am not affiliated with Azahar, not a developer. You MUST have the original legally dumped from YOUR OWN 3DS game to use this! (Literally this won't work without the ROM, it's just the cache to speed up the LEGALLY DUMPED GAME!! It will NOT run by itself!!!)
 
