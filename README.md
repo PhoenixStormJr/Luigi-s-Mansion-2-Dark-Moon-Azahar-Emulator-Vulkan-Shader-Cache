@@ -7,6 +7,13 @@ Beat it in stable! If it helps here is vulkan info for stable:
         apiVersion        = 1.3.296 (4206888)
 (deck@steamdeck ~)$ 
 
+beta:
+
+(deck@steamdeck ~)$ vulkaninfo | grep -i "apiVersion"
+        apiVersion        = 1.4.330 (4211018)
+(deck@steamdeck ~)$ 
+
+Maybe THAT'S why it wasn't working...
 
 # Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache
 I am not affiliated with Azahar or Nintendo. You need the orginal game to use this. Luigi's Mansion 2 Dark Moon is very difficult to emulate, because it has to render tens of thousands of shaders *per room*. Therefore, I beat the game on vulkan and copied the full cache files!! On steam deck but it might work on Windows or android I don't know. 
