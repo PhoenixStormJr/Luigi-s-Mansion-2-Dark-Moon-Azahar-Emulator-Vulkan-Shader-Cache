@@ -114,6 +114,8 @@ I have no idea about cheats.
 
 I use a steam deck LCD. I got the files from here:
 
+Vulkan:
+
 /home/deck/.local/share/azaharplus-emu/shaders/vulkan/pipeline/0004000000055F00-1002163F.bin
 
 /home/deck/.local/share/azaharplus-emu/shaders/vulkan/transferable/0004000000055F00_fs.vkch
@@ -123,5 +125,11 @@ I use a steam deck LCD. I got the files from here:
 /home/deck/.local/share/azaharplus-emu/shaders/vulkan/transferable/0004000000055F00_pl.vkch
 
 /home/deck/.local/share/azaharplus-emu/shaders/vulkan/transferable/0004000000055F00_vs.vkch
+
+OpenGL:
+
+/home/deck/.local/share/azaharplus-emu/shaders/opengl/precompiled/separable/0004000000055F00.bin
+
+/home/deck/.local/share/azaharplus-emu/shaders/opengl/transferable/0004000000055F00.bin
 
 version of emulator Azahar 2125.1.1
