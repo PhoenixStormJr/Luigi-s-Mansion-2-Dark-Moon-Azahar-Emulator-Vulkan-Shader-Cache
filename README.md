@@ -26,6 +26,8 @@ Download here:
 
 [beta](https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/download/release/Luigis-Mansion-2-Dark-Moon-shaders-Vulkan-Beta.zip)
 
+[OpenGL_Stable](https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/download/opengl1/Luigi.s.Mansion.2.Dark.Moon.Open.GL.shaders.zip)
+
 (WARNING for Beta you need to CHECK the disable optimize spirv cache, because I was an idiot the first time around and didn't know any better, now it's stuck. I won't do it again until Beta moves into Stable. I'm moving into Open GL.)
 
 # DISCLAIMER:
