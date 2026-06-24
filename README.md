@@ -22,9 +22,7 @@ I beat the game using Vulkan, but I plan to beat the game 4 times, twice on Vulk
 
 Download here:
 
-[stable](https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/download/release2/Luigi.s.Mansion.2.Azahar.Vulkan.Shaders.Cache.Stable.zip)
-
-[beta](https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/download/release/Luigis-Mansion-2-Dark-Moon-shaders-Vulkan-Beta.zip)
+[Vulkan 1.3](https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/download/release2/Luigi.s.Mansion.2.Azahar.Vulkan.Shaders.Cache.Stable.zip)
 
 [OpenGL_Stable](https://github.com/PhoenixStormJr/Luigi-s-Mansion-2-Dark-Moon-Azahar-Emulator-Vulkan-Shader-Cache/releases/download/opengl1/Luigi.s.Mansion.2.Dark.Moon.Open.GL.shaders.zip) (Probably doesn't work)
 
